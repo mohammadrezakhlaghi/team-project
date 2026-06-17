@@ -3,3 +3,6 @@ Version 1.0
 Feature B implemented
 This change was added via a Pull Request.
 Second update before merge.
+Added Docker deployment notes.
+
+Added monitoring checklist.
