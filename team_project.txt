@@ -1,8 +1,21 @@
 Team Project
 Version 1.0
-Feature B implemented
-This change was added via a Pull Request.
-Second update before merge.
-Added Docker deployment notes.
+# Deployment Guide
 
-Added monitoring checklist.
+## Prerequisites
+- Docker
+- Git
+
+## Setup Steps
+1. Clone the repository:
+   git clone <repo-url>
+
+2. Build Docker image:
+   docker build -t project .
+
+3. Run the container:
+   docker run -p 3000:3000 project
+
+## Notes
+- Ensure environment variables are set before running.
+- Check port availability before starting the container.
